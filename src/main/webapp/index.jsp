@@ -1,7 +1,7 @@
 
-Welcome to DigitalLocker index.jsp
+Welcome to Sadd's spring-web-boot project
 <BR/>
-<p>Build: ${build.timestamp} Version: ${iodCore.version}</p>
+<p>Build: ${build.timestamp}</p>
 <BR/><BR/>
-Test api: <a href="/locker/test">/locker/test</a>
+Test api: <a href="/controller/test">Test URL</a>
 <BR/>
