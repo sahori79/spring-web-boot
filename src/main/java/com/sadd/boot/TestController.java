@@ -1,4 +1,4 @@
-package src.main.java;
+package com.sadd.boot;
 
 import java.util.Date;
 
