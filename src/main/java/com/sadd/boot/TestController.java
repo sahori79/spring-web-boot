@@ -15,7 +15,6 @@ public class TestController {
 	@RequestMapping("/test")
 	public String test() {
 		String msg = "TestController service is up!<BR/>  Today's date: " + new Date();
-		msg += "<P/>pointing to url:<BR/><strong>";
 		msg += "</strong><P/>To test:  <BR/>";
 		msg += "use POSTMan to: /controller/test <BR/>";
 		msg += "enter a Header value of:  Content-Type  application/json <BR/>";
