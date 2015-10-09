@@ -18,7 +18,7 @@ public class TestController {
 		msg += "</strong><P/>To test:  <BR/>";
 		msg += "use POSTMan to: /controller/test <BR/>";
 		msg += "enter a Header value of:  Content-Type  application/json <BR/>";
-		msg += "select 'raw' button and 'JSON' from dropdown.  Enter the following (with unique customerPurchaseOrderId): <BR/>";
+		msg += "select 'raw' button and 'JSON' from dropdown. <BR/>";
 		return msg;
 	}
 
