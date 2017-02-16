@@ -1,0 +1,7 @@
+to run
+docker run -p 8080:8080 -t springio/gs-spring-boot-docker
+
+to stop 
+docker ps - grab the id
+
+docker stop #id

@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/controller")
+@RequestMapping("/")
 public class TestController {
 
 	/**
 	 * A simple 'sanity' GET mapping to check the health of the service.
 	 */
-	@RequestMapping("/test")
+	@RequestMapping("test")
 	public String test() {
 		String msg = "TestController service is up!<BR/>  Today's date: " + new Date();
 		msg += "</strong><P/>To test:  <BR/>";
